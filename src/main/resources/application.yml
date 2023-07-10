@@ -1,0 +1,19 @@
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/spring_data_jpa
+    username: root
+    password: root
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    properties.hibernate:
+      show_sql: true
+      format_sql: true
+
+      hbm2ddl.auto: validate
+    open-in-view: false
+  messages:
+    basename: messages
+app:
+  image:
+    bucket: D:\java\IT Academy\lessons\module04(spring)\lesson07\Spring-Starter\images
